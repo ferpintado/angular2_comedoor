@@ -1,0 +1,8 @@
+<div *ngIf="place">
+<h2>{{ place.name }}</h2>
+<address>{{ place.address }}</address>
+<p>Schedule: {{ place.schedule }}</p>
+</div>
+<div *ngIf="!place">
+<p>Place doesnt exist</p>
+</div>
